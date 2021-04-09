@@ -1,0 +1,30 @@
+.header {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: aqua;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  columns: 1;
+  margin: 10px;
+  padding: 10px;
+}
+.calculator > form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+form label {
+  padding: 10px;
+}
+.btn {
+  background-color: rgb(107, 255, 107);
+  margin: 10px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
